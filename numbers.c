@@ -7,7 +7,7 @@ int main(void)
 
     for (int i = 0; i < 7; i++)
     {
-        if (numbers[i] == 0)
+        if (numbers[i] == 4)
         {
             printf("Found\n");
             return 0;
