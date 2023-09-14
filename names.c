@@ -4,11 +4,11 @@
 
 int main(void)
 {
-    string names[] = {"q", "w", "e", "r", "t", "y", "u"};
+    string names[] = {"qwert", "asdf", "hy", "hwll", "kdjfh", "kwjdn", "dvb"};
 
     for (int i = 0; i < 7; i++)
     {
-        if (strcmp(names[i],  "q"))
+        if (strcmp(names[i],  "asdf") == 0)
         {
             printf("Found\n");
             return 0;
